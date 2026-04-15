@@ -1,0 +1,6 @@
+tunnel: __TUNNEL_ID__
+credentials-file: /init/cloudflared/creds.json
+ingress:
+  - hostname: __TUNNEL_HOST__
+    service: http://localhost:8123
+  - service: http_status:404

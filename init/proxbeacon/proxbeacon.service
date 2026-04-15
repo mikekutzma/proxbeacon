@@ -1,0 +1,13 @@
+[Unit]
+Description=ProxBeacon
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/init/proxbeacon/exe
+Restart=always
+RestartSec=2
+WorkingDirectory=/init/proxbeacon
+
+[Install]
+WantedBy=multi-user.target

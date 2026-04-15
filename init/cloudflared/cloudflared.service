@@ -1,0 +1,13 @@
+[Unit]
+Description=Cloudflare Tunnel
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/init/cloudflared/exe tunnel --config /init/cloudflared/config.yml run
+Restart=always
+RestartSec=2
+WorkingDirectory=/init/cloudflared
+
+[Install]
+WantedBy=multi-user.target
