@@ -5,6 +5,8 @@ countdown clock. Mostly just whipped up quickly to play around with the
 PROXmobil3, backend is mostly clanker slop, web UI is 100% certified clanker
 slop. Deploy and docs are meat-typed.
 
+https://github.com/user-attachments/assets/383a3e72-b8dc-4491-b041-7f29b8c79124
+
 ## Build & Deploy
 
 ### Setup
