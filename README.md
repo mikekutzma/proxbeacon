@@ -26,7 +26,7 @@ dongle to start the device. It will boot into the autorun script from the usb,
 and you should be able to ssh into the device.
 
 ### Proxbeacon
-At this point, you can build and deploy the source code for the app.
+At this point, you can build and deploy the the app.
 
 ``` bash
 # This will handle setup, build and deployment, optionally passing in the device
@@ -36,10 +36,9 @@ just sync-proxbeacon-binary
 # You can also run the recipes manually if you want to just rebuild
 just setup-rust-build
 just build-proxbeacon
-just sync-proxbeacon-binary ilnx.lan
 ```
 
-From there, you can ssh into the machine and run the app
+From there, you can ssh into the device and run the app
 
 ``` bash
 ssh root@ilnx.lan '/init/proxbeacon/exe'
