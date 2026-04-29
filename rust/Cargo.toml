@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["proxweb", "proxbeacon"]
+members = ["proxbeacon"]
 
 [profile.release]
 opt-level = "z"
